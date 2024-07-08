@@ -10,7 +10,7 @@ public class AccountHandler {
         catch(DMLException e) {
             return null;
         }
-        return acc;
+        return acc;//Added a comment to publish it on git repository
         
     }
 }
